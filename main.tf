@@ -7,8 +7,8 @@ provider "azurerm" {
   tenant_id       = "e8ac314e-8e13-4ff3-ad6c-ccba99ae326d"
 }
 
-#resource "azurerm_resource_group" "example" {
- # name     = "terra-cloud-rg1"
- # location = "eastus"
-#}
+resource "azurerm_resource_group" "example" {
+  name     = "terra-cloud-rg1"
+  location = "eastus"
+}
 
