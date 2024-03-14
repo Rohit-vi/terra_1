@@ -8,7 +8,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "example" {
-  name     = "linux-rg1"
+  name     = "terra-cloud-rg1"
   location = "eastus"
 }
 
